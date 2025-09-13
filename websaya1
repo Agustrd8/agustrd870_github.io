@@ -1,0 +1,52 @@
+<!DOCTYPE html>halaman 1
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>websaya</title>
+    <link rel="stylesheet" href="websaya.css">
+</head>
+<body>
+    <header>
+        <h1>Untuk apa ke sini? apa yang kalian cari? kalau ujung ujungnya tetap pergi</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Kembali kemasa yang tiada tara</h2>
+        <p>Mulai?...</p>
+    </section>
+
+    <section id="products">
+        <h2>Ini saya...</h2>
+        <div class="product">
+            <img src="saya 1.jpg" alt="Deskripsi gambar" width="300" height="auto">
+            <h3>Ig saya</h3>
+            <p>Ig. ags.trd</p>
+            <button onclick="addToCart"('instagram/@ags.trd', 100000)">Instagram</button>
+        </div>
+        <div class="product">
+            <img src="saya 2.jpg" alt="Deskripsi gambar" width="300" height="auto">
+            <h3>tiktok saya</h3>
+            <p>tiktok. uhuih11</p>
+            <button onclick="addToCart('tiktok.com/@uhuiih11', 200000)">Tiktok</button>
+        </div>
+        <!-- Tambahkan lebih banyak produk sesuai kebutuhan -->
+    </section>
+
+    <section id="contact">
+        <h2>Disinii aja</h2>
+        <p>Email: agustrd8@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
