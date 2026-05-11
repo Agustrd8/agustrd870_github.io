@@ -22,7 +22,6 @@ body{
     overflow:hidden;
 }
 
-/* HALAMAN PASSWORD */
 #loginPage{
     text-align:center;
 }
@@ -72,7 +71,6 @@ button:hover{
     font-size:14px;
 }
 
-/* HALAMAN UTAMA */
 #mainPage{
     display:none;
     text-align:center;
